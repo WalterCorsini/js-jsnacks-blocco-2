@@ -1,1 +1,15 @@
-5. scrivere una funzione rimuoviDallaTesta() che, dato un array A in input, restituisca un nuovo array B, con tutti gli elementi dell'array A, tranne quello in prima posizione
+# SVOLGIMENTO
+scrivere una funzione rimuoviDallaTesta() che, dato un array A in input, restituisca un nuovo array B, con tutti gli elementi dell'array A, tranne quello in prima posizione
+
+## INPUT
+1. creo un array con N elementi
+2. creo un array vuoto in cui salvare il risultato della funzione
+## LOGIC
+2.invoco la funzione rimuviDallaTesta() e gli assegno come paramtero l'array
+    - creo un array vuoto
+    - creo un ciclo for
+    - aggiungo tutti gli elementi tranne il primo
+    - ritorno il nuovo array meno il primo elemento
+## OUTPUT
+salvo il risultato della funzione
+stampo a video il risultato
