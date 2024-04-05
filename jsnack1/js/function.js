@@ -6,7 +6,7 @@
  * @param {number} min     min value generator
  * @param {number} max     max value genarator
  * @param {number} number  user number
- * @returns {{}}
+ * @returns {{array}}       returns userNumber array;
  */
 function rndGen(min,max,number){
     let array = [];
