@@ -1,1 +1,1 @@
-1. scrivere una funzione contaElementi() che, dato un array in input, restituisca il numero di elementi presenti nell'array
+3. scrivere una funzione stampa() che, dato un array in input, restituisca una stringa contenente tutti gli elementi dell'array, separati da una virgola
