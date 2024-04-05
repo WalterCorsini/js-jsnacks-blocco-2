@@ -4,14 +4,24 @@
  * @param {array} arrayText
  * @returns {number}
  */
-function trovaIndice(text,arrayText){
-    let result = -1;
-    for(let i = 0; i<arrayText.length; i++){
-        if(text.toLowerCase() === arrayText[i].toLowerCase()){
-            result = i;
-            console.log(result);
-            return result;
-        }
+function trovaIndice(text, arrayText) {
+  let result = -1;
+  for (let i = 0; i < arrayText.length; i++) {
+    console.log(typeof arrayText[i]);
+
+    if (isNaN(arrayText[i])) {
+      if (text.toLowerCase() === arrayText[i].toLowerCase()) {
+        result = i;
+        return result;
+      }
+    } else {
+      console.log(typeof arrayText[i]);
+      if (text == arrayText[i]) {
+        result = i;
+        console.log(result);
+        return result;
+      }
     }
-    return result;
+  }
+  return result;
 }

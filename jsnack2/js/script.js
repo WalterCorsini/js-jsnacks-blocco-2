@@ -1,6 +1,6 @@
 // INPUT
 // declaration variable and array element
-const array = ["pasta","pane","CAFFE","vino"];
+const array = [3,"pane","CAFFE","vino"];
 let result = 0;
 let userInput = prompt("dimmi la parola che vuoi cercare");
 
