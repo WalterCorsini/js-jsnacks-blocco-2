@@ -1,8 +1,15 @@
 
+/**
+ * Description generate userNumber Array of 10 elements
+ * 
+ *
+ * @param {number} min     min value generator
+ * @param {number} max     max value genarator
+ * @param {number} number  user number
+ * @returns {{}}
+ */
 function rndGen(min,max,number){
     let array = [];
-
-
     for(let i = 0; i<number; i++){
         let result = "";
         let rndNumber = 0;
