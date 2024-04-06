@@ -12,8 +12,8 @@ let newItem = document.getElementById("new-item");  // input new element
 
 spanElem.innerHTML = arrayA;
 h2Elem.innerHTML = "questo il tuo elenco della spesa: ";
-divElem.append(h2Elem);
-divElem.append(spanElem);
+divElem.append(h2Elem);                             // add title in HTML
+divElem.append(spanElem);                           // add array in HTML
 
 // no refresh page when click send button
 formElem.addEventListener("click", function (noRefresh) {
@@ -23,14 +23,14 @@ formElem.addEventListener("click", function (noRefresh) {
 
 // send button
 btnElem.addEventListener("click", function () {
-  if (newItem.value !== "") {
-    alertElem.classList.add("hidden");
+  if (newItem.value !== "") {                         // if input element not empty
+    alertElem.classList.add("hidden");                // add class hidden to error message
     console.log(newItem.value);
-    arrayB = inserisciInTesta(arrayA, newItem.value);
-    arrayA = arrayB;
-    spanElem.innerHTML = arrayA;
+    arrayB = inserisciInTesta(arrayA, newItem.value); // save new element in arrayB
+    arrayA = arrayB;                                  // copy arrayB in arrayA to print list with new item in html
+    spanElem.innerHTML = arrayA;                      // print list in HTML
   } else {
-    alertElem.classList.remove("hidden");
+    alertElem.classList.remove("hidden");             // if input element is empty remove class hidden and show error message
   }
-  newItem.value = "";
+  newItem.value = "";                                 // refresh input value element.
 });
