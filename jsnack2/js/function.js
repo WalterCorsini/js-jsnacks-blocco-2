@@ -15,7 +15,7 @@ function trovaIndice(text, arrayText) {
         return result;
       }
     } else {
-      console.log(typeof arrayText[i]);
+        console.log(typeof arrayText[i]);
       if (text == arrayText[i]) {
         result = i;
         console.log(result);

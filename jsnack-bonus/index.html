@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jSNACK-BONUS</title>
-    <!-- STYLE -->
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>jSNACK-BONUS</title>
+        <!-- STYLE -->
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div id="result">
 
-<!-- SCRIPT -->
-<script src="./js/function.js"></script>
-<script src="./js/script.js"></script>
-</body>
+        </div>
+        <form id="form">
+            <label for="new-item">Nuovo elemento</label>
+            <input id="new-item" type="text"
+                placeholder="Aggiungi un elemento in lista">
+            <button id="send-btn"> aggiungi</button>
+            <h2 id="alert" class="hidden"> Attenzione il tuo campo elemento è vuoto</h2>
+        </form>
+        <!-- SCRIPT -->
+        <script src="./js/function.js"></script>
+        <script src="./js/script.js"></script>
+    </body>
 </html>
