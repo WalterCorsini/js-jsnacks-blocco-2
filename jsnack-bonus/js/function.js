@@ -4,10 +4,10 @@
  * @param {string}} newElement
  * @returns {array}
  */
-function inserisciInTesta(arrayUser,newElement){
-    const arrayNew =[newElement];
-    for(let i = 0; i<arrayUser.length; i++){
-        arrayNew.push(arrayUser[i]);
-    }
-    return arrayNew;
+function inserisciInTesta(arrayUser, newElement) {
+  const arrayNew = [newElement];
+  for (let i = 0; i < arrayUser.length; i++) {
+    arrayNew.push(arrayUser[i]);
+  }
+  return arrayNew;
 }
