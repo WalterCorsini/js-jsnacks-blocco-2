@@ -2,13 +2,13 @@
 // declaration array and variable
 let arrayA = ["pippo", "pluto", "Simone Bonvecchio"];
 let arrayB = [];
-let formElem = document.getElementById("form"); // form
-let btnElem = document.getElementById("send-btn"); //send button
-let alertElem = document.getElementById("alert"); // message error
-let divElem = document.getElementById("result");
-let h2Elem = document.createElement("h2");
-let spanElem = document.createElement("span");
-let newItem = document.getElementById("new-item");
+let formElem = document.getElementById("form");     // form
+let btnElem = document.getElementById("send-btn");  //send button
+let alertElem = document.getElementById("alert");   // message error
+let divElem = document.getElementById("result");    // container element
+let h2Elem = document.createElement("h2");          // title
+let spanElem = document.createElement("span");      // shoping list
+let newItem = document.getElementById("new-item");  // input new element
 
 spanElem.innerHTML = arrayA;
 h2Elem.innerHTML = "questo il tuo elenco della spesa: ";
