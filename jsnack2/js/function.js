@@ -14,14 +14,13 @@ function trovaIndice(text, arrayText) {
         result = i;
         return result;
       }
-    } else {
-        console.log(typeof arrayText[i]);
+    }
       if (text == arrayText[i]) {
         result = i;
         console.log(result);
         return result;
       }
     }
+    return result;
   }
-  return result;
-}
+
