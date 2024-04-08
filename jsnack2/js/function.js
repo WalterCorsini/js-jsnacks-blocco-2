@@ -5,20 +5,13 @@
  * @returns {number}
  */
 function trovaIndice(text, arrayText) {
-  let result = -1;
+  const result = -1;
   for (let i = 0; i < arrayText.length; i++) {
-    console.log(typeof arrayText[i]);
-
-    if (isNaN(arrayText[i])) {
-      if (text.toLowerCase() === arrayText[i].toLowerCase()) {
-        result = i;
-        return result;
+      if (isNaN(arrayText[i]) && text.toLowerCase() === arrayText[i].toLowerCase()) {
+        return i;
       }
-    }
       if (text == arrayText[i]) {
-        result = i;
-        console.log(result);
-        return result;
+        return i;
       }
     }
     return result;
